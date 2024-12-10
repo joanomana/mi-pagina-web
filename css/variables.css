@@ -1,0 +1,10 @@
+:root{
+    --color-1: #368533;
+    --color-2: #FFFFFF;
+    --color-3: #cd292a;
+    --color-4: #004cff;
+}
+@font-face {
+font-family: "Montserrat-ExtraBold";
+src: url(../storage/font/Montserrat/Montserrat-ExtraBold.ttf);
+}
