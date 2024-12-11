@@ -22,8 +22,8 @@ body{
 }
 
 .row_1 h1{
-    font-family: "Montserrat-extra-bold";
-    font-size: 60px;
+    font-family: "Montserrat-ExtraBold";
+    font-size: 64px;
     color: var(--color-2);
 }
 .row_1 h1 span{
@@ -66,12 +66,30 @@ body{
     height: 700px;
     position: absolute;
     top: -90px;
-    right: 150px;
+    right: 350px;
+    z-index:-1;
 }
 
 .row_3{
     left:100px;
     width:1112px;
     height:101px;
-    background-color: red;
+    position: fixed;
+    bottom: 0;
+}
+.row_3 {
+    .container{
+        display:block;
+    }
+    .section{
+        display: inline-block;
+    background: linear-gradient(to right,#8b8b8b,transparent);
+    color: var(--color-2);
+    padding:29px 30px;
+    border-radius: 50px;
+    font-size:24px;
+    font-family:"Montserrat-semiBold";
+    position:relative;
+
+    }
 }
